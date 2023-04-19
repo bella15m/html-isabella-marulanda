@@ -4,16 +4,17 @@ html {
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: Light rgb(138, 104, 161);
 }
 
 header h1 {
-  background-color: #364552;
-  color: white;
+  background-color: #5738ad;
+  color: rgb(14, 5, 5);
   padding: 3rem 2rem;
   font-size: 3rem;
   text-align: center;
   border-radius: 0.5rem;
+  text-shadow: 2px 2px rgb(31, 207, 207);
 }
 
 h2 {
@@ -28,6 +29,8 @@ h3 {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  color: lightskyblue;
+  text-shadow: 2px 2 black;
 }
 
 h4 {
@@ -46,7 +49,7 @@ h5 {
 
 body p {
   transition: all 0.3s ease;
-  background-color: #fff;
+  background-color: rgb(90, 93, 252);
   margin: 1rem 0;
   border-radius: 0.5rem;
   padding: 1rem 1rem;
@@ -58,11 +61,11 @@ body p {
 }
 
 body p:hover {
-  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.1rem 0.4rem rgba(7, 11, 238, 0.3);
 }
 
 footer {
-  background-color: #222;
+  background-color: rgb(77, 74, 243);
   padding: 3rem;
   color: white;
   border-radius: 0.5rem;
@@ -74,7 +77,7 @@ footer p {
 
 footer a {
   transition: color 0.3s ease;
-  color: white;
+  color: rgb(1, 2, 61);
   text-decoration: none;
 }
 
@@ -99,8 +102,8 @@ footer a:hover {
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border: 1px solid rgb(165, 214, 208);
+  background-color: #a49efa;
   width: 800px;
   margin: 0 auto;
   border-radius: 0.3rem;
@@ -119,20 +122,20 @@ footer a:hover {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: rgb(30, 21, 80);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: rgb(115, 204, 207);
 }
 
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 0.25rem 0;
-  border: 1px solid #ccc;
-  background-color: #fff;
+  border: 1px solid rgb(221, 188, 228);
+  background-color: rgb(214, 164, 224);
   border-top: none;
   border-radius: 0.5rem;
   width: 800px;

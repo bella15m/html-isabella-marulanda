@@ -6,14 +6,28 @@ body {
   margin: 0;
   background-color: Light rgb(138, 104, 161);
 }
-
+#Exoplanets {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#Astrobiology {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#Temperature {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 header h1 {
-  background-color: #5738ad;
+  background-image: url(../imagen/galaxia1.jpg);
   color: rgb(14, 5, 5);
   padding: 3rem 2rem;
-  font-size: 3rem;
+  font-size: 3fr;
   text-align: center;
-  border-radius: 0.5rem;
+  border-radius: 0.6rem;
   text-shadow: 2px 2px rgb(31, 207, 207);
 }
 
@@ -65,7 +79,7 @@ body p:hover {
 }
 
 footer {
-  background-color: rgb(77, 74, 243);
+  background-image: url(../imagen/galaxia.jpg);
   padding: 3rem;
   color: white;
   border-radius: 0.5rem;
@@ -77,7 +91,7 @@ footer p {
 
 footer a {
   transition: color 0.3s ease;
-  color: rgb(1, 2, 61);
+  color: rgb(142, 143, 202);
   text-decoration: none;
 }
 
@@ -127,7 +141,7 @@ footer a:hover {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: rgb(115, 204, 207);
+  background-color: lightseagreen;
 }
 
 /* Style the tab content */
@@ -135,7 +149,7 @@ footer a:hover {
   display: none;
   padding: 0.25rem 0;
   border: 1px solid rgb(221, 188, 228);
-  background-color: rgb(214, 164, 224);
+  background-image: url(../imagen/galaxia2.jpg);
   border-top: none;
   border-radius: 0.5rem;
   width: 800px;
